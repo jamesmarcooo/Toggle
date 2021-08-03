@@ -11,3 +11,9 @@ main p {
   font-family: sans-serif;
   transition: color 0.3s ease;
 }
+
+/*TOGGLE COLORS*/
+.dark {
+  background: #545454;
+  color: #efefef;
+}
