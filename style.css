@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 main {
   height: 100vh;
   width: 100vw;
@@ -11,25 +15,29 @@ main p {
   font-family: sans-serif;
   transition: color 0.3s ease;
 }
-
 /*TOGGLE COLORS*/
 .dark {
   background: #545454;
   color: #efefef;
 }
-
-*SWITCH*/ .switch {
+p {
+  background: none !important;
+}
+/*SWITCH*/
+.switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
   align-self: center;
 }
+
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -41,6 +49,7 @@ main p {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 .slider:before {
   position: absolute;
   content: "";
@@ -52,18 +61,22 @@ main p {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 input:checked + .slider {
   background-color: #2196f3;
 }
+
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
+
 /* Rounded sliders */
 .slider {
   border-radius: 30px;
 }
+
 .slider:before {
   border-radius: 50%;
 }

@@ -1,5 +1,3 @@
-HTML CSS JSResult Skip Results Iframe
-EDIT ON
 
 $('#main').toggleClass(localStorage.toggled);
 
@@ -21,7 +19,3 @@ if ($('main').hasClass('dark')) {
 } else {
   $( '#checkBox' ).prop( "checked", false )
 }
-
-Run Pen
-
-Resources1× 0.5× 0.25×Rerun
